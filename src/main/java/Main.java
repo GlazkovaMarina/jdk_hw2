@@ -25,7 +25,7 @@ public class Main {
     public static void main(String[] args) {
         // 1
         Integer first = 9;
-        Long second = 10l;
+        Long second = 10L;
         Double third = 5.4;
         Float fourth = 3.14f;
         System.out.println(Calculator.sum(first, second).intValue());
@@ -35,7 +35,7 @@ public class Main {
 
         // 2
         Integer[] array1 = {1, 2, 3, 4, 5};
-        Long[] array2 = {1l, 2l, 3l, 4l, 5l};
+        Long[] array2 = {1L, 2L, 3L, 4L, 5L};
         Integer[] array3 = {1, 2, 3, 4, 5, 6};
         Double[] array4 = {1.0, 2.0, 3.0, 4.0, 5.0};
         System.out.println(compareArrays(array1, array2));
