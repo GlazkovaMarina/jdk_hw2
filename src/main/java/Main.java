@@ -27,11 +27,11 @@ public class Main {
         Integer first = 9;
         Long second = 10L;
         Double third = 5.4;
-        Float fourth = 3.14f;
-        System.out.println(Calculator.sum(first, second).intValue());
-        System.out.println(Calculator.subtract(first, third).doubleValue());
-        System.out.println(Calculator.divide(first, fourth).floatValue());
-        System.out.println(Calculator.multiply(first, first).intValue());
+        Float fourth = 0.0f;
+        System.out.println(Calculator.sum(first, second));
+        System.out.println(Calculator.subtract(first, third));
+        System.out.println(Calculator.divide(first, fourth));
+        System.out.println(Calculator.multiply(first, first));
 
         // 2
         Integer[] array1 = {1, 2, 3, 4, 5};
